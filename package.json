@@ -1,0 +1,35 @@
+{
+  "name": "proyecto-final-modulo-8-devf",
+  "version": "1.0.0",
+  "description": "Proyecto Final modulo 10 del bootcamp Master in code DevF, realizado en Nodejs &amp; mongoDb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JRaulSierra/proyecto-final-modulo-8-DevF.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JRaulSierra/proyecto-final-modulo-8-DevF/issues"
+  },
+  "homepage": "https://github.com/JRaulSierra/proyecto-final-modulo-8-DevF#readme",
+  "dependencies": {
+    "bcrypt": "5.0.1",
+    "dotenv": "16.0.1",
+    "express": "4.18.1",
+    "joi": "17.6.0",
+    "jwt-simple": "0.5.6",
+    "mongoose": "6.4.0",
+    "morgan": "1.10.0"
+  },
+  "devDependencies": {
+    "husky": "8.0.1",
+    "jest": "28.1.1",
+    "mongodb-memory-server": "^8.7.0",
+    "supertest": "6.2.3"
+  }
+}
