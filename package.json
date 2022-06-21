@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Proyecto Final modulo 10 del bootcamp Master in code DevF, realizado en Nodejs &amp; mongoDb",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=production&&node server.js",
+    "dev": "set NODE_ENV=development&&node server.js",
+    "local": "set NODE_ENV=local&&nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -24,7 +28,8 @@
     "joi": "17.6.0",
     "jwt-simple": "0.5.6",
     "mongoose": "6.4.0",
-    "morgan": "1.10.0"
+    "morgan": "1.10.0",
+    "nodemon": "^2.0.16"
   },
   "devDependencies": {
     "husky": "8.0.1",
