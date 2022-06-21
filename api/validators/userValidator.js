@@ -9,5 +9,5 @@ export const validUserSchema = Joi.object({
     address: Joi.string().required(),
     password: Joi.string().required(),
     role: Joi.string().required(),
-    DPI: Joi.string()
+    DPI: Joi.string(),
 });

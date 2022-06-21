@@ -1,6 +1,6 @@
-import { validUserSchema } from "../validators/userValidator";
+import { validUserSchema } from "../validators/index.js";
 
-const registerUser = (req,res,next) => {
+const registerUser = async(req,res,next) => {
     const { body } = req;
     try {
       await validUserSchema.validateAsync(body);

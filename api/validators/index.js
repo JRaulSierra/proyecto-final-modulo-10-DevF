@@ -1,3 +1,5 @@
-import { validUserSchema } from './userValidator.js';
+import { validUserSchema } from "./userValidator.js";
 
-export { validUserSchema }
+export {
+    validUserSchema,
+};
