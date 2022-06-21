@@ -25,6 +25,7 @@ Crear un sistema (API REST) de un e-commerce para una tienda en linea con expres
   - ID(identificación)
   - Dirección
   - Teléfono
+  - Contraseña
 ​
 - Para que un cliente se pueda registrar, necesita ingresar los siguientes datos
 ​

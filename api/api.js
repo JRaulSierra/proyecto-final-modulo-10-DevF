@@ -1,11 +1,13 @@
 import express from 'express';
 import config from './config/index.js';
 import morgan from 'morgan';
+import { userRoutes } from './routes/index.js';
 
 const api = express();
 
 api.use(morgan('tiny'));
 api.use(express.json());
+api.use(userRoutes);
 
 api.get('/status', (req, res) => {
     return res.json({
@@ -30,4 +32,3 @@ api.use((err, req, res, next) => {
   });
   
   export default api;
-  
