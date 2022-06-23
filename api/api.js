@@ -7,6 +7,7 @@ const api = express();
 
 api.use(morgan('tiny'));
 api.use(express.json());
+api.use(morgan("dev"));
 api.use(userRoutes);
 
 api.get('/status', (req, res) => {
